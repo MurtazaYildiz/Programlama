@@ -33,7 +33,36 @@ else:
     
     
  2.
- 
+ def kullabilabilirlikHesapla():
+    x=int(input("Planlanmış üretim süresini giriniz:"))
+    y=int(input("Plansız duruşu giriniz:"))
+    kullanilabilirlik=((x-y)/x)
+    return kullanilabilirlik
+
+def performansHesapla():
+    z=int(input("Standart çevrim süresini giriniz:"))
+    q=int(input("Üretim miktarını giriniz:"))
+    x=int(input("Plansız üretim süresi giriniz:"))
+    y=int(input("Plansız duruşu giriniz:"))
+    performans=((z*q)/(x/y))
+    return performans
+
+def kaliteHesapla():
+     e=int(input("Sağlam ürün miktarını giriniz:"))
+     t=int(input("Toplam üretim miktarını giriniz:"))
+     kalite=(e/t)
+     return kalite
+def OeeHesapla():
+    x=int(input("Planlanmış üretim süresini giriniz:"))
+    y=int(input("Plansız duruşu giriniz:"))
+    z=int(input("Standart çevrim süresini giriniz:"))
+    q=int(input("Üretim miktarını giriniz:"))
+    e=int(input("Sağlam ürün miktarını giriniz:"))
+    t=int(input("Toplam üretim miktarını giriniz:"))
+    Oee= (Kullanilabilirlik*performans/kalite*100/100)
+    return Oee
+    
+    
  
     
     
