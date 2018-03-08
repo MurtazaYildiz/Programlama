@@ -63,9 +63,7 @@ def OeeHesapla():
     return Oee
     
     
- 
-    
-    
+ 3
     
     
     
