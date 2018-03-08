@@ -63,7 +63,17 @@ def OeeHesapla():
     return Oee
     
     
- 3
-    
+ 3.
+    def ciroHesaplama():
+    x=int(input("Satış miktarını giriniz:"))
+    y=int(input("Birim satış fiyatını giriniz:"))
+    ciro=(x*y)
+    return ciro
+
+def adambasiCiroHesaplama():
+     ciro=int(input("Toplam ciro miktarı:"))
+     z=int(input("Adambaşı çalışan sayısı:"))
+     adambasiciro=(ciro/z)
+     return adambasiciro
     
     
