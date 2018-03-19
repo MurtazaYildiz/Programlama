@@ -1,0 +1,13 @@
+SORU 1
+x=int(input("Toplam satış miktarı:"))
+y=int(input("Hammadde maliyeti:"))
+z=int(input("Bakım onarım giderleri:"))
+q=int(input("Sevkiyat giderleri:"))
+w=int(input("Satın alınan hizmet giderleri:"))
+katmadegerciro=(x-(y+z+q+w))
+if (int(katmadegerciro)>1000):
+    print("İşletmenin katma değer cirosu yüksektir.")
+elif (int(katmadegerciro)<500):
+    print("İşletmenin katma değer cirosu düşüktür.")
+else:
+    print("İşletmenin katma değer cirosu normaldir.")
