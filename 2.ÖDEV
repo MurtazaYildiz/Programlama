@@ -38,4 +38,30 @@ def aralarindakiFarkHesapla ():
     aralarindakiFark=((z/q)-(x/y))
     return aralarindakiFark
     
-    
+  SORU 4
+  def donembasiStokHesapla():
+  x=int(input("koltuk sayısını giriniz:"))
+  y=int(input("yatak sayısını giriniz:"))
+  z=int(input("dolap sayısını giriniz:"))
+  donembasiStok=(x+y+z)
+  return donembasiStok
+
+def donemsonuStokHesapla():
+  x=int(input("koltuk sayısını giriniz:"))
+  y=int(input("yatak sayısını giriniz:"))
+  z=int(input("dolap sayısını giriniz:"))
+  a=int(input("satılan koltuk sayısını giriniz:"))
+  b=int(input("satılan yatak sayısını giriniz:"))
+  c=int(input("satılan dolap sayısını giriniz:"))
+  d=int(input("alınan koltuk sayısını giriniz:"))
+  e=int(input("alınan yatak sayısını giriniz:"))
+  f=int(input("alınan dolap sayısını giriniz:"))
+  donemsonuStok=((x+y+x)-(a+b+c))+(d+e+f)
+  return donemsonuStok
+
+def ortalamaStokHesapla():
+ m=int(input("dönembaşı stok bilgilerini girin:"))
+ n=int(input("dönemsonu stok bilgilerini girin:"))
+ ortalamastok=((m+n)/2)
+ return ortalamaStok
+
