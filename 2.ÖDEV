@@ -11,3 +11,31 @@ elif (int(katmadegerciro)<500):
     print("İşletmenin katma değer cirosu düşüktür.")
 else:
     print("İşletmenin katma değer cirosu normaldir.")
+
+
+
+SORU 2
+def ikibinonaltiYiliHesapla (): 
+    x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
+    y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
+
+    ikibinonaltiYili=(x/y)
+    return ikibinonaltiYili
+
+def ikibinonyediYiliHesapla ():
+    z= int(input("İkibinonyedi yılı çalışılan süreyi giriniz:"))
+    q= int(input("İkibinonyedi yılı toplam müşteri sayısını giriniz:"))
+    
+    ikibinonyediYili=(z/q)
+    return ikibinonyediYili
+
+def aralarindakiFarkHesapla ():
+    x= int(input("İkibinonaltı yılı çalışılan süreyi giriniz:"))
+    y= int(input("İkibinonaltı yılı toplam müsteri sayısını giriniz:"))
+    z= int(input("İkibinonyedi yılı çalışılan süreyi giriniz:"))
+    q= int(input("İkibinonyedi yılı toplam müşteri sayısını giriniz:"))
+    
+    aralarindakiFark=((z/q)-(x/y))
+    return aralarindakiFark
+    
+    
