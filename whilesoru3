@@ -1,0 +1,11 @@
+i=""
+kalan=0
+while(i!=0):
+    i=int(input("bir sayý giriniz: cikmak isterseniz 0'a basýnýz."))
+    if i==0:
+        print("Program sonlandirildi.")
+    else:
+        x=(i%3)
+        print("3 ile bolumunden kalan:",x)
+        kalan=kalan+x
+    print("Kalan toplami:",kalan)

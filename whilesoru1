@@ -1,0 +1,14 @@
+satismiktari=500
+birimsatisfiyati=20
+ciro=50
+i=1
+while True:
+    print(i)
+    satismiktari=satismiktari+200
+    birimsatisfiyati=birimsatisfiyati+10
+    ciro=ciro+(satismiktari*birimsatisfiyati)
+    if(ciro>500000):
+        print(i,"ay sonra ciro 500.000'den fazla oldu. Cironuz:",ciro)
+        break
+    i=i+1
+ 

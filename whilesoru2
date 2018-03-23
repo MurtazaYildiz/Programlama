@@ -1,0 +1,8 @@
+gecenyilstok=10000
+i=1
+while True:
+    gecenyilstok=gecenyilstok+(100-500)
+    if(gecenyilstok==0):
+        print(i,"ay sonra stok miktari sifirlanir.")
+        break
+    i=i+1
