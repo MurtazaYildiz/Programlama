@@ -1,0 +1,40 @@
+def aktif(kasa,alinanCek,bankaH,alacakSenetleri,ticariMal,binalar,tasitlar,demirbaslar):
+    kasa=int(kasa)
+    alinanCek=int(alinanCek)
+    bankaH=int(bankaH)
+    alacakSenetleri=int(alacakSenetleri)
+    ticariMal=int(ticariMal)
+    binalar=int(binalar)
+    tasitlar=int(tasitlar)
+    demirbaslar=int(demirbaslar)
+    
+    donenVarliklar=kasa+alinanCek+bankaH+alacakSenetleri+ticariMal
+    print ("Dönen Varlýklar Toplamý:",donenVarliklar)
+    
+    duranVarliklar=binalar+tasitlar+demirbaslar
+    print ("Duran Varlýklar Toplamý:",duranVarliklar)
+    
+    aktifToplami=donenVarliklar+duranVarliklar
+    return aktifToplami
+
+
+
+def pasif(bankaKredileri,saticilar,uzVadeliBankaKredileri,uzVadeliBorcSenedi,sermayeHesabi):
+    bankaKredileri=int(bankaKredileri)
+    saticilar=int(saticilar)
+    uzVadeliBankaKredileri=int(uzVadeliBankaKredileri)
+    uzVadeliBorcSenedi=int(uzVadeliBorcSenedi)
+    sermayeHesabi=int(sermayeHesabi)
+
+    
+    kvyk=bankaKredileri+saticilar
+    print("Kýsa Vadeli Yabancý Kaynaklar Toplamý:",kvyk)
+    
+    uvyk=uzVadeliBankaKredileri+uzVadeliBorcSenedi
+    print("Uzun Vadeli Yabancý Kaynaklar Toplamý:",uvyk)
+
+    ozKaynaklar=sermayeHesabi
+    print("Toplam Öz Kaynaklar:",ozKaynaklar)
+    
+    pasifToplami=kvyk+uvyk+ozKaynaklar
+    return pasifToplami
