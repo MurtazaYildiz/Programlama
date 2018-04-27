@@ -1,3 +1,0 @@
-from karCiroHesabi import*
-kar(500,300)
-adamBasiCiro(1000,300)
